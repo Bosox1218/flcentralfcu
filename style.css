@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.login-container, .dashboard {
+    background: white;
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+button {
+    background: #0b3d91;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.balance {
+    font-size: 32px;
+    color: green;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0b3d91;
+    font-weight: bold;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.credit-scores p {
+    font-size: 20px;
+    margin: 10px 0;
+}
